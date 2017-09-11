@@ -8,6 +8,9 @@ describe('next/pullAt', function () {
     var array = [5, 10, 15, 20];
     var evens = nx.pullAt(array, 1, 3);
 
+    // console.log(array);
+    // console.log(evens);
+
     assert.equal(array.length, 2);
     assert.equal(evens.length, 2);
 
