@@ -1,6 +1,6 @@
 {
   "name": "next-pull-at",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "Returns the new array of removed elements.",
   "homepage": "https://github.com/afeiship/next-pull-at",
   "author": {
