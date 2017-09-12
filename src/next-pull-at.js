@@ -9,7 +9,8 @@
 
     var result = [];
     var i, index;
-    var args_ = ARRAY_PROTO.slice.call(arguments, 1);
+    var arg1 = arguments[1];
+    var args_ = Array.isArray(arg1) ? arg1 : ARRAY_PROTO.slice.call(arguments, 1);
     var len = args_.length;
     var length = inArray.length;
     var value, element;
